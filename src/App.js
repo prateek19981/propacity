@@ -9,13 +9,7 @@ import axios from "axios";
 import Chart from "./components/Chart";
 import Album from "./components/Album";
 import AlbumList from "./components/AlbumList";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  NavLink,
-  Link,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AlbumPhoto from "./components/AlbumPhoto";
 
 function App() {
